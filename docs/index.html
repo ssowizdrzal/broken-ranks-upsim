@@ -11,25 +11,225 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <div class="wrap-collabsible razena-settings">
-        <input id="collapsible" class="toggle" type="checkbox">
-        <label for="collapsible" class="lbl-toggle">SETTINGS</label>
-        <div class="collapsible-content">
-          <div class="content-inner">
-            <div class="d-flex flex-row">
-                <div class="card1 d-flex flex-column">
-                    RANKS AND INHIBS
+    <div class="d-flex flex-column">
+        <div class="wrap-collabsible razena-settings">
+            <input id="collapsible" class="toggle" type="checkbox">
+            <label for="collapsible" class="lbl-toggle">SETTINGS</label>
+            <div class="collapsible-content">
+              <div class="content-inner">
+                <div class="d-flex flex-row">
+                    <div class="razena-card-1 d-flex flex-column m-1 w-25">
+                        <div class="text-left pl-1">RANKS AND INHIB PRICES</div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-1-inhib-price" class="razena-label">I</label>
+                            <input type="text" class="text-right" id="Rank-1-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-2-inhib-price" class="razena-label">II</label>
+                            <input type="text" class="text-right" id="Rank-2-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-3-inhib-price" class="razena-label" >III</label>
+                            <input type="text" class="text-right" id="Rank-3-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-4-inhib-price" class="razena-label">IV</label>
+                            <input type="text" class="text-right" id="Rank-4-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-5-inhib-price" class="razena-label">V</label>
+                            <input type="text" class="text-right" id="Rank-5-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-6-inhib-price" class="razena-label">VI</label>
+                            <input type="text" class="text-right" id="Rank-6-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-7-inhib-price" class="razena-label">VII</label>
+                            <input type="text" class="text-right" id="Rank-7-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-8-inhib-price" class="razena-label">VIII</label>
+                            <input type="text" class="text-right" id="Rank-8-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-9-inhib-price" class="razena-label">IX</label>
+                            <input type="text" class="text-right" id="Rank-9-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1" >
+                            <label for="Rank-10-inhib-price" class="razena-label">X</label>
+                            <input type="text" class="text-right" id="Rank-10-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-11-inhib-price" class="razena-label">XI</label>
+                            <input type="text" class="text-right" id="Rank-11-inhib-price">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-12-inhib-price" class="razena-label">XII</label>
+                            <input type="text" class="text-right" id="Rank-12-inhib-price">
+                        </div>
+                    </div>
+                    <div class="razena-card-1 d-flex flex-column m-1 w-25">
+                        <div class="text-left pl-1">RANKS AND UPGRADE COSTS</div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-1-upgrade-cost" class="razena-label">I</label>
+                            <input type="text" class="text-right" id="Rank-1-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-2-upgrade-cost" class="razena-label">II</label>
+                            <input type="text" class="text-right" id="Rank-2-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-3-upgrade-cost" class="razena-label" >III</label>
+                            <input type="text" class="text-right" id="Rank-3-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-4-upgrade-cost" class="razena-label">IV</label>
+                            <input type="text" class="text-right" id="Rank-4-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-5-upgrade-cost" class="razena-label">V</label>
+                            <input type="text" class="text-right" id="Rank-5-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-6-upgrade-cost" class="razena-label">VI</label>
+                            <input type="text" class="text-right" id="Rank-6-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-7-upgrade-cost" class="razena-label">VII</label>
+                            <input type="text" class="text-right" id="Rank-7-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-8-upgrade-cost" class="razena-label">VIII</label>
+                            <input type="text" class="text-right" id="Rank-8-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-9-upgrade-cost" class="razena-label">IX</label>
+                            <input type="text" class="text-right" id="Rank-9-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1" >
+                            <label for="Rank-10-upgrade-cost" class="razena-label">X</label>
+                            <input type="text" class="text-right" id="Rank-10-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-11-upgrade-cost" class="razena-label">XI</label>
+                            <input type="text" class="text-right" id="Rank-11-upgrade-cost">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Rank-12-upgrade-cost" class="razena-label">XII</label>
+                            <input type="text" class="text-right" id="Rank-12-upgrade-cost">
+                        </div>
+                    </div>
+                    <div class="razena-card-1 d-flex flex-column m-1 w-25">
+                        <div class="text-left pl-1">LEVELS AND PROBWO ESS</div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-1-upgrade-prob-woess" class="razena-label">+1</label>
+                            <input type="text" class="text-right" id="Level-1-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-2-upgrade-prob-woess" class="razena-label">+2</label>
+                            <input type="text" class="text-right" id="Level-2-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-3-upgrade-prob-woess" class="razena-label">+3</label>
+                            <input type="text" class="text-right" id="Level-3-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-4-upgrade-prob-woess" class="razena-label">+4</label>
+                            <input type="text" class="text-right" id="Level-4-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-5-upgrade-prob-woess" class="razena-label">+5</label>
+                            <input type="text" class="text-right" id="Level-5-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-6-upgrade-prob-woess" class="razena-label">+6</label>
+                            <input type="text" class="text-right" id="Level-6-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-7-upgrade-prob-woess" class="razena-label">+7</label>
+                            <input type="text" class="text-right" id="Level-7-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-8-upgrade-prob-woess" class="razena-label">+8</label>
+                            <input type="text" class="text-right" id="Level-8-upgrade-prob-woess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-9-upgrade-prob-woess" class="razena-label">+9</label>
+                            <input type="text" class="text-right" id="Level-9-upgrade-prob-woess">
+                        </div>
+                    </div>
+                    <div class="razena-card-1 d-flex flex-column m-1 w-25">
+                        <div class="text-left pl-1">LEVELS AND PROBW ESS</div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-1-upgrade-prob-wess" class="razena-label">+1</label>
+                            <input type="text" class="text-right" id="Level-1-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-2-upgrade-prob-wess" class="razena-label">+2</label>
+                            <input type="text" class="text-right" id="Level-2-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-3-upgrade-prob-wess" class="razena-label">+3</label>
+                            <input type="text" class="text-right" id="Level-3-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-4-upgrade-prob-wess" class="razena-label">+4</label>
+                            <input type="text" class="text-right" id="Level-4-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-5-upgrade-prob-wess" class="razena-label">+5</label>
+                            <input type="text" class="text-right" id="Level-5-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-6-upgrade-prob-wess" class="razena-label">+6</label>
+                            <input type="text" class="text-right" id="Level-6-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-7-upgrade-prob-wess" class="razena-label">+7</label>
+                            <input type="text" class="text-right" id="Level-7-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-8-upgrade-prob-wess" class="razena-label">+8</label>
+                            <input type="text" class="text-right" id="Level-8-upgrade-prob-wess">
+                        </div>
+                        <div class="d-flex flex-row m-1">
+                            <label for="Level-9-upgrade-prob-wess" class="razena-label">+9</label>
+                            <input type="text" class="text-right" id="Level-9-upgrade-prob-wess">
+                        </div>
+                    </div>
                 </div>
-                <div class="card1 d-flex flex-column">
-                    INHIB PRICES
-                </div>
-                <div class="card1 d-flex flex-column">
-                    % FOR UPGRADE
-                </div>
+              </div>
             </div>
-          </div>
         </div>
-      </div>
-
+        <div class="razena-card-1 d-flex flex-column m-1">
+            <div class="row m-1 spacing-1">
+                <label for="safety" class="razena-label-1 ml-1 col-md-1" >MIN +10 UPGR</label>
+                <input type="text" class="text-right col-md-2 " id="safety">
+            </div>
+            <div class="row m-1">
+                <label for="plat-price" class="razena-label-1 ml-1 col-md-1" >PLAT PRICE</label>
+                <input type="text" class="text-right col-md-2" id="plat-price">
+            </div>
+            <div class="row m-1">
+                <label for="ess-price" class="razena-label-1 ml-1 col-md-1">ESSENCE PRICE</label>
+                <input type="text" class="text-right col-md-2" id="ess-price">
+            </div>
+            <div class="row m-1">
+                <label for="flask-price" class="razena-label-1 ml-1 col-md-1">FLASK PRICE</label>
+                <input type="text" class="text-right col-md-2" id="flask-price">
+            </div>
+            <div class="row m-1">
+                <label for="durability" class="razena-label-1 ml-1 col-md-1">DURABILITY</label>
+                <input type="text" class="text-right col-md-2" id="durability">
+            </div>
+        </div>
+        <div class="d-flex flex-row">
+            <button type="button" id="run-button" onclick="runCalc()" class="btn btn-primary btn-lg btn-block lbl-toggle">RUN</button>
+        </div>
+    </div>
+    <footer>
+        <script src="initDefaultValues.js"></script>
+    </footer>
 </body>
 </html>

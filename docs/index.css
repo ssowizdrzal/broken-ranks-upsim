@@ -70,3 +70,13 @@ input[type='checkbox'] {
     border-bottom-right-radius: 7px;
     padding: .5rem 1rem;
   }
+
+.razena-label {
+  width: 35px;
+  padding-left: 5px;
+}
+
+.razena-label-1 {
+  width: 50%;
+  padding-left: 5px;
+}
